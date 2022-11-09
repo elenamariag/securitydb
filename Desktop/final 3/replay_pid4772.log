@@ -1,0 +1,49 @@
+JvmtiExport can_access_local_variables 1
+JvmtiExport can_hotswap_or_post_breakpoint 1
+JvmtiExport can_post_on_exceptions 1
+# 286 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1328763 0 -1
+ciMethod java/lang/Object hashCode ()I 4097 1 512 0 -1
+ciMethod java/lang/Object toString ()Ljava/lang/String; 217 1 230 0 -1
+ciMethod java/lang/String <init> ([CII)V 4097 1 5723 0 -1
+ciMethod java/lang/String isEmpty ()Z 1905 1 54832 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 4097 20065 3788 0 -1
+ciMethod java/lang/String startsWith (Ljava/lang/String;I)Z 3721 24577 4956 0 -1
+ciMethod java/lang/String startsWith (Ljava/lang/String;)Z 4097 1 269750 0 -1
+ciMethod java/lang/String endsWith (Ljava/lang/String;)Z 4097 1 58278 0 -1
+ciMethod java/lang/String hashCode ()I 2793 32769 2291 0 -1
+ciMethod java/lang/String indexOf (I)I 4097 1 179389 0 -1
+ciMethod java/lang/String indexOf (II)I 1633 57345 2090 0 -1
+ciMethod java/lang/String lastIndexOf (I)I 4097 1 58041 0 -1
+ciMethod java/lang/String lastIndexOf (II)I 1673 131073 1151 0 -1
+ciMethod java/lang/String substring (I)Ljava/lang/String; 1009 1 5267 0 -1
+ciMethod java/lang/String substring (II)Ljava/lang/String; 4097 1 5680 0 -1
+ciMethod java/lang/String split (Ljava/lang/String;I)[Ljava/lang/String; 1449 1905 181 0 -1
+ciMethod java/lang/String split (Ljava/lang/String;)[Ljava/lang/String; 1449 1 181 0 -1
+ciMethod java/lang/String format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String; 153 1 188 0 -1
+ciMethod java/lang/String valueOf (Ljava/lang/Object;)Ljava/lang/String; 1153 1 4553 0 -1
+ciMethod java/lang/Throwable getCause ()Ljava/lang/Throwable; 0 0 1 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 4097 1 138080 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 4097 1 5723 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 4097 1 84434 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/Object;)Ljava/lang/StringBuilder; 1153 1 3339 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 4097 1 297885 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 4097 1 92707 0 -1
+ciMethod java/lang/Integer valueOf (I)Ljava/lang/Integer; 217 1 8261 0 -1
+ciMethod java/util/List iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/AbstractCollection <init> ()V 2177 1 120079 0 -1
+ciMethod java/util/Set add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/AbstractSet <init> ()V 377 1 42903 0 -1
+ciMethod java/util/AbstractMap <init> ()V 1721 1 40427 0 -1
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 4097 1 99448 0 -1
+ciMethod java/util/HashMap <init> ()V 521 1 29252 0 -1
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 4097 1 8996 0 -1
+ciMethod java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 4097 393 12405 0 -1
+ciMethod java/util/Map$Entry getKey ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map$Entry getValue ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethodData java/lang/Object <init> ()V 2 1328764 orig 264 104 163 11 98 0 0 0 0 128 4 162 27 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 225 35 162 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/Locale getDefault (Ljava/util/Locale$Category;)Ljava/util/Locale; 337 1 623 0 -1
+ciMethodData java/lang/String <init> ([CII)V 2 5723 orig 264 104 163 11 98 0 0 0 0 240 49 162 27 0 0 0 0 80 2 0 0 208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 217 162 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 240 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 30 0x10002 0x145b 0x50007 0x145b 0x30 0x0 0xd0002 0x0 0x120007 0x1451 0x70 0xa 0x160007 0xa 0x30 0x0 0x1e0002 0x0 0x250007 0x0 0x20 0xa 0x370007 0x1451 0x30 0x0 0x410002 0x0 0x4b0002 0x1451 oops 0
+ciMethodData java/util/HashMap hash (Ljava/lang/Object;)I 2 99448 orig 264 104 163 11 98 0 0 0 0 184 194 176 27 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 193 19 12 0 1 0 0 0 108 75 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 104 0 0 0 255 255 255 255 7 224 1 0 0 0 0 0 data 13 0x1e007 0x1822a 0x38 0x4f 0x50003 0x4f 0x48 0x90005 0xc9e9 0x27822c0 0xb5fb 0x1e22f400 0xa6 oops 2
